@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Mate SC", serif;
+}
+* .body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: linear-gradient(0.25turn, #fbc523, #f51b29);
+}
+.container .seccion1,
+.container .seccion2 {
+  border: solid 2px black;
+  height: auto;
+  padding: 1rem;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background: linear-gradient(30deg, white, #fbc523);
+}
+.container .seccion1:focus-within,
+.container .seccion2:focus-within {
+  background: linear-gradient(30deg, #fbc523, white);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"></head>
+    <title>Document</title>
+    
+</head>
+<body>
+  <div class="container" >
+    <div class="seccion1">
+    <label for="neto">Monto Neto</label>
+    <input id="neto" type="number">   </input>
+    
+    <label for="descuento" >Porcentaje Descuento</label>
+    <input id="descuento" type="number" step=5 min="0" max="40" value="0" placeholder="%"></input>
+    
+    <button onClick="calcular()">Calcular</button>
+    <p id="p1"></p>
+    <button onClick="limpiar()">Limpiar</button>
+    </div>
+    <div class="seccion2">
+      <label >Ingrese Bruto</label>
+      <input id="bruto" type="number" ></input>
+    <label for="descuento2" >Porcentaje Descuento</label>
+    <input id="descuento2" type="number" step=5 min="0" max="40" value="0"></input>
+    <button onClick="calcular2()">Calcular</button>
+    <p id="p2"></p>
+    <button onClick="limpiar()">Limpiar</button>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+    </div>
+</body>
+</html>
